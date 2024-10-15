@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li{
+            color: red;
+        } /*兄弟选择器*/
+        ul>p{
+            color: blue;
+        }
+        ul+p{
+            color: blueviolet;
+        }
+        h1~h2{
+            color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <p>内容1</p>
+        <li>1</li>
+        <li>
+            <p>
+                abc
+
+            </p>
+            2</li>
+        <li>3</li>
+    </ul>
+    <p>内容2</p>
+    <p>内容3</p>
+    <h2>标题2</h2>
+    <h1>标题1</h1>
+    <h2>标题2</h2>
+    <h2>标题2</h2>
+    <h2>标题2</h2>
+
+
+</body>
+</html>
